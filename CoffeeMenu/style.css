@@ -1,0 +1,101 @@
+body{
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding:20px;
+}
+
+/*Headings*/
+h1, h2{
+    font-family: Impact, serif;
+    
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+h1,h2,p{
+    text-align: center;
+}
+
+.established{
+    font-style: italic;
+}
+
+hr{
+    height: 2px;
+    background-color:brown;
+    border-color: brown;
+}
+
+/*The main menu*/
+
+.menu{
+    /*Size of the menu*/
+    width:80%;
+    background-color: burlywood;
+    /*These 2 center the menu*/
+    margin-left: auto;
+    margin-right: auto;
+    /*Set a max width of the menu*/
+    max-width: 500px;
+    padding:20px;
+}
+
+/*Menu Items*/
+
+.item p{
+    /*inline block = can be displayed on the same line and the width and height can be adjusted*/
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.flavor, .dessert{
+    /*we want the items to be on the left*/
+    text-align: left;
+    /*Names are longer than price for the most part*/
+    width:75%;
+}
+
+.price{
+    /*prices on the right*/
+    text-align: right;
+    width: 25%;
+}
+
+img{
+    margin-top: -20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Footer*/
+
+.bottomline{
+    margin-top: 20px;
+}
+
+.address{
+    margin-bottom: 5px;
+}
+
+a{
+    color:black
+}
+
+a:hover{
+    color: brown;
+}
+
+a:active{
+    color: brown;
+}
